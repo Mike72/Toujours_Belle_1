@@ -1,12 +1,13 @@
-belleApp.controller("belleAppCrtl", function($scope,){
-    function Guest(fname,lname,telephone,mail){
+belleApp.controller("belleAppCrtl", function($scope){
+    function Guest(fname,lname,telephone,userName,password){
         this.fname = fname;
-        this.lname = lname;
+        this.lname = lname; 
         this.telephone = telephone;
-        this.mail = mail;
+        this.userName = userName;
+        this.password = password; 
     }
 
-    $scope.guests = [new Guest("Dora", "Hajdu","0525239029", "dudorka@hotmail.com")];
+    $scope.guests = [new Guest("Dora", "Hajdu","0525239029", "Dorika1", "123456")];
 
     console.log(guests);
 
