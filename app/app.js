@@ -11,4 +11,7 @@ belleApp.config(function($routeProvider) {
     .when('/register',{
         templateUrl: "app/register/register.html"
     })
+    .when('/admin',{
+        temlateUrl: "app/admin/admin.html"
+    })
 });
