@@ -1,4 +1,4 @@
-belleApp.controller("belleAppCrtl", function($scope){
+belleApp.controller("belleAppCrtl", function($scope,$location){
     function Guest(fname,lname,telephone,userName,password){
         this.fname = fname;
         this.lname = lname; 
