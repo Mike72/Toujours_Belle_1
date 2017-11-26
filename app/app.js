@@ -12,7 +12,7 @@ belleApp.config(function($routeProvider) {
         templateUrl: "app/register/register.html"
     })
     .when('/admin',{
-        temlateUrl: "app/admin/admin.html"
+        templateUrl: "app/admin/admin.html",
         controller: "adminCtrl"
     })
 });

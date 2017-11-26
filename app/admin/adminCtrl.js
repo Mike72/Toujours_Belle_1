@@ -1,4 +1,4 @@
-app.controller("actorAppCtrl", function ($scope,$http) {
+belleApp.controller("actorAppCtrl", function ($scope,$http) {
     
         function Admin(fname, lname, telephone, userName,password) {
             this.fname = fname;
