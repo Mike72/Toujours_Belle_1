@@ -11,4 +11,7 @@ belleApp.controller("belleAppCtrl", function($scope,$location){
 
     console.log(JSON.stringify($scope.guests));
 
+
+
+    
 });

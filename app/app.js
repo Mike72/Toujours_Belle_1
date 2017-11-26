@@ -13,5 +13,6 @@ belleApp.config(function($routeProvider) {
     })
     .when('/admin',{
         temlateUrl: "app/admin/admin.html"
+        controller: "adminCtrl"
     })
 });
