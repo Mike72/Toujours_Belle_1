@@ -19,8 +19,8 @@ belleApp.config(function($routeProvider) {
         templateUrl: "app/contactUs/contact.html",
         controller: "contactCtrl"
     })
-    .when('/admin',{
-        templateUrl: "app/admin/admin.html",
-        controller: "adminCtrl"
+    .when('/gallery',{
+        templateUrl: "app/gallery/gallery.html",
+        controller: "galleryCtrl"
     })
 });
