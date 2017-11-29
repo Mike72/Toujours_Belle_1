@@ -15,4 +15,12 @@ belleApp.config(function($routeProvider) {
         templateUrl: "app/admin/admin.html",
         controller: "adminCtrl"
     })
+    .when('/contact',{
+        templateUrl: "app/contactUs/contact.html",
+        controller: "contactCtrl"
+    })
+    .when('/admin',{
+        templateUrl: "app/admin/admin.html",
+        controller: "adminCtrl"
+    })
 });

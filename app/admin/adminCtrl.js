@@ -1,4 +1,4 @@
-belleApp.controller("adminCtrl", function ($scope,$http) {
+belleApp.controller("adminCtrl", function ($scope,$http, $location) {
     
         function Admin(fname, lname, telephone, userName,password) {
             this.fname = fname;
@@ -10,7 +10,7 @@ belleApp.controller("adminCtrl", function ($scope,$http) {
     
         $scope.admins = [];
         
-          $http.get("app/data/admin.json").then(function mySuccess(response) {
+          $http.get("app/data/admins.json").then(function mySuccess(response) {
             for (var i = 0; i < response.data.length; i++) {
               $scope.admins.push(new Admin(response.data[i].fname, response.data[i].lname, 
                 response.data[i].telephone, response.data[i].userName, response.data[i].password))  

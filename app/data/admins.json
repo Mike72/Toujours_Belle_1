@@ -3,7 +3,8 @@
     "lname" : "Kun",
     "telephone" : "0528338443",
     "userName" : "Betty",
-    "password" : "Aviel13"
+    "password" : "Aviel13",
+    "data": app/data/guests.json
 },
 {  
     
@@ -11,6 +12,7 @@
     "lname" : "Mike",
     "telephone" : "0528335061",
     "userName" : "Mike",
-    "password" : "Bubika"
+    "password" : "Bubika",
+    "data": app/data/guests.json
 
 }]
