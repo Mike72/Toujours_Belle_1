@@ -1,4 +1,4 @@
-belleApp.controller("guestCtrl", function($scope,$location){
+belleApp.controller("guestCtrl", function($scope,$location, $http){
     function Guest(fname,lname,telephone,userName,password){
         this.fname = fname;
         this.lname = lname; 
